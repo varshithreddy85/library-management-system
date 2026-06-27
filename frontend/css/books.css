@@ -1,0 +1,139 @@
+/* Page Background */
+body {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Page Title */
+h2 {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+/* Card */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Card Shadow */
+.card.shadow-sm {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+}
+
+/* Search Box */
+.form-control {
+    border-radius: 10px;
+    height: 45px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #2563eb;
+}
+
+/* Table */
+.table {
+    vertical-align: middle;
+}
+
+.table thead {
+    background-color: #0f172a;
+    color: white;
+}
+
+.table thead th {
+    font-weight: 500;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f5f9;
+    transition: 0.3s;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #2563eb;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 18px;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-info {
+    border-radius: 8px;
+}
+
+.btn-warning {
+    border-radius: 8px;
+}
+
+.btn-danger {
+    border-radius: 8px;
+}
+
+/* Status Badge */
+.badge {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    border-radius: 10px;
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 15px;
+    border: none;
+}
+
+.modal-header {
+    background-color: #2563eb;
+    color: white;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+}
+
+/* Input Fields */
+input,
+select,
+textarea {
+    border-radius: 10px !important;
+}
+
+/* Responsive Table */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Action Buttons */
+.action-btn {
+    margin-right: 5px;
+}
+
+/* Add Book Button */
+.add-book-btn {
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+/* Search Section */
+.search-section {
+    margin-bottom: 25px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+}
+
+/* Smooth Animation */
+.card,
+.btn,
+.table tbody tr {
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,151 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family:'Poppins',sans-serif;
+    background-color:#f4f7fc;
+    color:#1e293b;
+}
+
+/* Links */
+a{
+    text-decoration:none;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6{
+    font-weight:600;
+    color:#0f172a;
+}
+
+/* Cards */
+.card{
+    border:none;
+    border-radius:18px;
+    background:#fff;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Buttons */
+.btn{
+    border-radius:10px;
+    transition:0.3s ease;
+}
+
+.btn-primary{
+    background:#2563eb;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#1d4ed8;
+}
+
+.btn-success{
+    background:#22c55e;
+    border:none;
+}
+
+.btn-success:hover{
+    background:#16a34a;
+}
+
+.btn-warning{
+    color:white;
+}
+
+.btn-danger{
+    background:#ef4444;
+    border:none;
+}
+
+/* Forms */
+.form-control,
+.form-select{
+    height:48px;
+    border-radius:10px;
+    border:1px solid #d1d5db;
+}
+
+.form-control:focus,
+.form-select:focus{
+    box-shadow:none;
+    border-color:#2563eb;
+}
+
+/* Tables */
+.table{
+    vertical-align:middle;
+}
+
+.table thead{
+    background:#0f172a;
+    color:white;
+}
+
+.table tbody tr:hover{
+    background:#f8fafc;
+}
+
+/* Badges */
+.badge{
+    padding:8px 14px;
+    border-radius:10px;
+}
+
+/* Modal */
+.modal-content{
+    border:none;
+    border-radius:18px;
+}
+
+.modal-header{
+    border-bottom:none;
+}
+
+.modal-footer{
+    border-top:none;
+}
+
+/* Section Spacing */
+.section-title{
+    margin-bottom:25px;
+}
+
+/* Page Container */
+.page-content{
+    margin-left:280px;
+    padding:30px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    width:7px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#94a3b8;
+    border-radius:10px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .page-content{
+        margin-left:100px;
+        padding:20px;
+    }
+
+    .card{
+        margin-bottom:20px;
+    }
+
+}

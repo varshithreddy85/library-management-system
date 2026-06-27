@@ -1,0 +1,117 @@
+/* Background */
+body {
+    background-color: #f4f7fc;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Page Heading */
+.page-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+/* Cards */
+.dashboard-card {
+    border: none;
+    border-radius: 18px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card Titles */
+.card-title {
+    color: #64748b;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Card Numbers */
+.card-value {
+    font-size: 34px;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+/* Different Card Colors */
+.total-books {
+    border-left: 5px solid #2563eb;
+}
+
+.available-books {
+    border-left: 5px solid #22c55e;
+}
+
+.total-members {
+    border-left: 5px solid #f59e0b;
+}
+
+.issued-books {
+    border-left: 5px solid #ef4444;
+}
+
+/* Tables */
+.table-card {
+    background: white;
+    border-radius: 18px;
+    padding: 20px;
+    margin-top: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.table {
+    vertical-align: middle;
+}
+
+.table thead {
+    background-color: #0f172a;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+/* Badge */
+.badge {
+    padding: 8px 14px;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #2563eb;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+}
+
+/* Quick Actions */
+.quick-action-btn {
+    width: 100%;
+    border-radius: 12px;
+    padding: 12px;
+    font-weight: 500;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .dashboard-card{
+        margin-bottom:20px;
+    }
+
+    .page-title{
+        font-size:24px;
+    }
+
+}
